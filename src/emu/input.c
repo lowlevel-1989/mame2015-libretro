@@ -295,6 +295,10 @@ static const code_string_table itemid_token_table[] =
 	{ ITEM_ID_RWIN,          "RWIN" },
 	{ ITEM_ID_MENU,          "MENU" },
 	{ ITEM_ID_CANCEL,        "CANCEL" },
+	{ ITEM_ID_LSUPER,        "LSUPER" },
+	{ ITEM_ID_RSUPER,        "RSUPER" },
+	{ ITEM_ID_VOLUME_DOWN,   "VOLUME_DOWN" },
+	{ ITEM_ID_VOLUME_UP,     "VOLUME_UP" },
 
 	// standard mouse/joystick/gun codes
 	{ ITEM_ID_XAXIS,         "XAXIS" },

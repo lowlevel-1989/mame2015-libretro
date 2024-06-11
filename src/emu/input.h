@@ -199,6 +199,10 @@ enum input_item_id
 	ITEM_ID_RWIN,
 	ITEM_ID_MENU,
 	ITEM_ID_CANCEL,
+	ITEM_ID_LSUPER,
+	ITEM_ID_RSUPER,
+	ITEM_ID_VOLUME_DOWN,
+	ITEM_ID_VOLUME_UP,
 
 	// standard mouse/joystick/gun IDs
 	ITEM_ID_XAXIS,
