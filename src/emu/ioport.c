@@ -2993,7 +2993,7 @@ void ioport_manager::load_config(int config_type, xml_data_node *parentnode)
 			input_seq_type seqtype = token_to_seq_type(xml_get_attribute_string(seqnode, "type", ""));
 			if (seqtype != -1 && seqnode->value != NULL)
 			{
-	            osd_printf_info("SEQNODE->VALUE %s\n", seqnode->value);
+	            printf("SEQNODE->VALUE %s\n", seqnode->value);
 				if (strcmp(seqnode->value, "NONE") == 0)
 					newseq[seqtype].set();
 				else
